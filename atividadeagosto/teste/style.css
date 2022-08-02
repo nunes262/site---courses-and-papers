@@ -176,8 +176,8 @@ body::-webkit-scrollbar-thumb {
     grid-row: 1 / 5;
 }
 .card {
-    width: 15rem;
-    height: 20rem;
+    width: 17rem;
+    height: 22rem;
     position: relative;
     left: 2rem;
 }
@@ -215,6 +215,7 @@ body::-webkit-scrollbar-thumb {
 .card-info h2 {
     font-family: var(--font-primary);
     font-size: 400;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #eee;
 }
@@ -229,6 +230,7 @@ body::-webkit-scrollbar-thumb {
 .card-info p {
     font-family: var(--font-secundary);
     color: #eee;
+    font-size: larger;
     font-weight: 300;
     width: 80%;
     margin-bottom: 2rem;
@@ -247,8 +249,8 @@ body::-webkit-scrollbar-thumb {
 }
   
 .card-info button {
-    width: 5rem;
-    height: 1.5rem;
+    width: 5.2rem;
+    height: 2rem;
 }
   
 .card:hover .card-info {
@@ -261,7 +263,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.9rem;
     color: #4b4b4b;
     position: relative;
-    bottom: 17rem;
+    bottom: 13rem;
     left: 1rem;
     border-bottom: 3px solid #8DC26F;
     width: 13.5rem;
@@ -270,8 +272,8 @@ body::-webkit-scrollbar-thumb {
     width: 16rem;
     height: 15rem;
     position: relative;
-    left: 4rem;
-    bottom: 14rem;
+    left: 20rem;
+    bottom: 9rem;
     box-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }

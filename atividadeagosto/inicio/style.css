@@ -155,12 +155,12 @@ body::-webkit-scrollbar-thumb {
 .projetos {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
   
 .card {
-    width: 18rem;
-    height: 25rem;
+    width: 26rem;
+    height: 33rem;
     position: relative;
 }
   
@@ -196,7 +196,7 @@ body::-webkit-scrollbar-thumb {
   
 .card-info h2 {
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 500;
     color: #eee;
 }
@@ -204,6 +204,7 @@ body::-webkit-scrollbar-thumb {
 .card-info h3 {
     font-family: var(--font-action);
     font-weight: bolder;
+    font-size: 1.5rem;
     color: #76b852;
     margin-bottom: 1.5rem;
 }
@@ -212,6 +213,7 @@ body::-webkit-scrollbar-thumb {
     font-family: var(--font-secundary);
     color: #eee;
     font-weight: 400;
+    font-size: larger;
     width: 80%;
     margin-bottom: 2rem;
 }
@@ -223,14 +225,15 @@ body::-webkit-scrollbar-thumb {
     font-family: var(--font-action);
     color: #eee;
     border-radius: 0.5rem;
+    font-size: medium;
     border: none;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
   
 .card-info button {
-    width: 8rem;
-    height: 2.5rem;
+    width: 8.5rem;
+    height: 3.5rem;
 }
   
 .card:hover .card-info {
@@ -250,13 +253,13 @@ body::-webkit-scrollbar-thumb {
     border: none;
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
     cursor: pointer; 
-    left: 74rem;
-    top: 35.7rem;
+    left: 104rem;
+    top: 48.7rem;
     position: absolute;
 }
 .btn-categorias button{
-    width: 8rem;
-    height: 2.5rem;
+    width: 8.5rem;
+    height: 3rem;
 }
 .btn-categorias a {
     list-style: none;
